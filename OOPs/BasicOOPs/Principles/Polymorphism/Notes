@@ -1,0 +1,4 @@
+Overriding happens at runtime 
+When "final" keyword is used methods can not be overriden and classes cannot be inheritted
+When "static" keyword is used the method can no longer be overriden as overriding is dependent on objects and "static" methods
+are indepndent of objects
