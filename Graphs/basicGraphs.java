@@ -89,6 +89,7 @@ public class basicGraphs {
         for(int i: graph.keySet()){
             System.out.println(graph.get(i));
         }
+        Queue<Integer> q=new LinkedList<>();
     }
     private static void addDirectedEdge(Map<Integer, List<Edge>> graph, int from, int to, int cost) {
         List<Edge> list = graph.get(from);
